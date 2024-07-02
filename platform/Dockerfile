@@ -1,4 +1,4 @@
-FROM python:3.11-slim-buster as prod
+FROM python:3.13.0b1-slim as prod
 
 RUN apt-get update && apt-get install -y \
   default-libmysqlclient-dev \
